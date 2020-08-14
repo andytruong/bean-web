@@ -4,6 +4,6 @@ import { connectRouter } from 'connected-react-router';
 
 // @see https://github.com/supasate/connected-react-router/tree/v6.8.0
 
-export const rootResolver = combineReducers({
+export const rootReducer = combineReducers({
 	router: connectRouter(history),
 });
