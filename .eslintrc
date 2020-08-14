@@ -1,0 +1,27 @@
+{
+	"parser": "babel-eslint",
+	"env": {
+		"browser": true
+	},
+	"rules": {
+		"react/require-default-props": 0,
+		"arrow-parens": 0,
+		"max-len": [
+			"warn",
+			{
+				"code": 240,
+				"tabWidth": 4,
+				"ignoreTemplateLiterals": true,
+				"ignoreStrings": true,
+				"ignoreRegExpLiterals": true
+			}
+		],
+		"react/no-multi-comp": 0,
+		"react/no-did-update-set-state": [
+			0
+		],
+		"no-nested-ternary": 0,
+		"react/no-array-index-key": 0,
+		"camelcase": 0
+	}
+}
