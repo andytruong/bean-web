@@ -18,8 +18,8 @@ ReactDOM.render(
 			<ConnectedRouter history={history}>
 				<>
 					<Switch>
-						<Route exact path="/" render={() => (<App />)}/>
-						<Route exact path="/wip" render={() => (<Login />)}/>
+						<Route exact path="/" component={App} />
+						<Route exact path="/wip" render={() => (<Login />)} />
 					</Switch>
 				</>
 			</ConnectedRouter>
